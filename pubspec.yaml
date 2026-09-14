@@ -15,7 +15,7 @@ dependencies:
   path_provider: ^2.1.3
   intl: ^0.19.0
   file_picker: 8.1.6
-  share_plus: ^12.0.2 # Çakışmayı çözmek için güncellendi
+  share_plus: ^12.0.2
   fl_chart: ^0.68.0
   google_fonts: ^6.2.1
   flutter_svg: ^2.0.10+1
@@ -26,9 +26,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-
-# dependency_overrides bölümü artık gereksiz, kaldırıldı.
-# Çakışma, paket sürümleri güncellenerek çözüldü.
 
 flutter:
   uses-material-design: true
